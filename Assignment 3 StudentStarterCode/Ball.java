@@ -33,7 +33,7 @@ public class Ball extends Sprite {
 			// TODO: Set x to 0 so it does not leave the screen
 			x = 0;
 			// TODO: Change the x velocity to make the ball go right
-			xVelocity = -1;
+			xVelocity = 1;
 		}
 		
 		// Bounce off right side of screen
@@ -41,7 +41,7 @@ public class Ball extends Sprite {
 			// TODO: Set x to the right edge of the screen (see the above if condition)
 			x = Settings.WINDOW_WIDTH - Settings.BALL_WIDTH;
 			// TODO: Change the x velocity to make the ball go left
-			xVelocity = 1;
+			xVelocity = -1;
 		}
 		
 		// Bounce off top of screen

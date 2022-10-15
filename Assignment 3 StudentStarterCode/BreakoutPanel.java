@@ -181,6 +181,10 @@ public class BreakoutPanel extends JPanel implements ActionListener, KeyListener
 			paddle.setXVelocity(-1);
 		} else if(e.getKeyCode() == KeyEvent.VK_D) {
 			paddle.setXVelocity(1);
+		}if(e.getKeyCode() == KeyEvent.VK_LEFT) {
+			paddle.setXVelocity(-1);
+		} else if(e.getKeyCode() == KeyEvent.VK_RIGHT) {
+			paddle.setXVelocity(1);
 		}
 	}
 

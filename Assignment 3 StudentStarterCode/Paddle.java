@@ -29,7 +29,7 @@ public class Paddle extends Sprite {
 			x = 0;
 		}
 		if(x >= Settings.WINDOW_WIDTH - Settings.PADDLE_WIDTH) {
-			x = 0;
+			x = Settings.WINDOW_WIDTH - Settings.PADDLE_WIDTH;
 		}
 	}
 	
@@ -39,6 +39,6 @@ public class Paddle extends Sprite {
 	
 	public void setXVelocity(int vel) {
 		// TODO: Set x velocity
-		xVelocity = x;
+		xVelocity = vel;
 	}
 }
