@@ -33,7 +33,6 @@ public class BreakoutPanel extends JPanel implements ActionListener, KeyListener
 		ball = new Ball(); 
 		// TODO: Create a new paddle object and assign it to the appropriate variable
 		paddle = new Paddle();
-		//DELETE BEFORE SUB what appropriate variable???
 		// TODO: Create a new bricks array (Use Settings.TOTAL_BRICKS)
 		bricks = new Brick[Settings.TOTAL_BRICKS];
 		// TODO: Call the createBricks() method

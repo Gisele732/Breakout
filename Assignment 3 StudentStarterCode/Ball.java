@@ -8,8 +8,8 @@ public class Ball extends Sprite {
 	public Ball() {
 		// TODO: Set width to Settings.BALL_WIDTH
 		setWidth(Settings.BALL_WIDTH);
-		// TODO: Set width to Settings.BALL_HEIGHT
-		setWidth(Settings.BALL_HEIGHT);
+		// TODO: Set height to Settings.BALL_HEIGHT
+		setHeight(Settings.BALL_HEIGHT);
 		// TODO: Call resetPosition
 		resetPosition();
 	}
@@ -65,11 +65,9 @@ public class Ball extends Sprite {
 	
 	public int getXVelocity() {
 		return xVelocity;	// TODO: Return the x velocity
-		//DELETE DEFORE SUB: was return 0;
 	}
 	public int getYVelocity() {
 		return yVelocity;	// TODO: Return the y velocity
-		//DELETE DEFORE SUB: was return 0;
 	}
 	
 	public void paint(Graphics g) {
